@@ -1,7 +1,7 @@
 <template>
 	<div class="card">
-		<div class="card-title">
-			<h2>{{ needAuth ? 'Password Required' : 'Connect' }}</h2>
+		<div class="card-title m-8">
+			<h2>{{ needAuth ? 'Password Required' : 'Connect to Amphi OBS Remote' }}</h2>
 		</div>
 		<div
 			v-if="error"
